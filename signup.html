@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/SDG Project/assets/logos/favcon.png"
+      type="image/x-icon"
+    />
+
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Other Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>MJD | System</title>
+  </head>
+
+  <body>
+    <!-- Heading for MJD -->
+    <header
+      style="
+        background: url('assets/images/tree.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <nav>
+        <h1 id="logo">
+          <img src="assets/climate logo.png" alt="logo" />
+        </h1>
+        <div id="show" class="nav-links">
+          <a
+            href="javascript:void(0);"
+            class="icon"
+            onclick="toggleNavigation()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="index.html">Home</a>
+          <a href="about-us.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact-us.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- services offered by MJD  -->
+    <!-- Sign and get a userid  -->
+    <main class="contact-page">
+      <a href="https://stripe.com/"
+        ><button
+          style="
+            background-color: orange;
+            border: 0;
+            border-radius: 1rem;
+            height: 2rem;
+            float: right;
+          "
+          class="btnservices-page"
+        >
+          Donate
+        </button></a
+      >
+      <form name="contact-us-form" id="contact-us-form">
+        <legend>Sign Up</legend>
+        <p>Want to join the Enviromentalists!</p>
+
+        <section class="name-of-sender">
+          <label for="first-name">
+            First name
+            <input
+              type="text"
+              id="first-name"
+              placeholder="First Name"
+              required="true"
+            />
+          </label>
+
+          <label for="last-name">
+            Last name
+            <input
+              type="text"
+              id="last-name"
+              placeholder="Last Name"
+              required="true"
+            />
+          </label>
+        </section>
+
+        <label for="gender"> Gender </label>
+        <section class="sender-gender">
+          <input
+            type="radio"
+            id="gender-male"
+            value="Male"
+            name="gender"
+            required="true"
+          />
+          <label for="gender"> Male </label>
+          <input
+            type="radio"
+            id="gender-female"
+            value="Female"
+            name="gender"
+            required="true"
+          />
+          <label for="gender"> Female </label>
+        </section>
+
+        <label for="email"> Email </label>
+        <input type="email" id="email" placeholder="Email" required="true" />
+        <label for="phone-number"> Phone Number </label>
+        <input
+          type="tel"
+          id="phone-number"
+          placeholder="Phone Number"
+          required="true"
+        />
+        <input type="submit" value="Sign Up" />
+        <section>
+          Do you already have an <a href="#form-login">account</a> ?
+        </section>
+      </form>
+      <section class="contact-image">
+        <img
+          class="image-form"
+          src="/SDG Project/assets/images/palm-tree.jpg"
+          alt=""
+        />
+      </section>
+    </main>
+
+    <!-- Login in to your user  -->
+    <main class="contact-page">
+      <section class="contact-image">
+        <img
+          class="image-form"
+          src="/SDG Project/assets/images/iceblock.jpg"
+          alt=""
+        />
+      </section>
+      <div class="form-login">
+        <form name="contact-us-form" id="contact-us-form">
+          <legend>Login</legend>
+          <p>Get in and fight Climate change</p>
+          <label for="phone-number"> Username </label>
+          <input
+            type="text"
+            id="phone-number"
+            placeholder="Username"
+            required="true"
+          />
+          <label for="message"> Password </label>
+          <input id="message" type="password" placeholder="Password" />
+
+          <input type="submit" value="Login" />
+          <p>
+            Forgotten <a href="#" style="text-decoration: none">password</a>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-details">
+        <section class="brand">
+          <h1>MJD</h1>
+          <p>Here To Change</p>
+        </section>
+
+        <section>
+          <pre>
+                    <strong>
+                      Telephone
+                    </strong>
+                    +256773417045
+                    +256708171441
+                    +256771590337
+                    <strong>
+                      Fax
+                    </strong>
+                    +414-773417045
+                    +414-708171441
+                    +414-771590337
+                    <strong>
+                      Email
+                    </strong>
+                  mjd@climateaction.ac.Uganda
+                  </pre>
+        </section>
+        <section>
+          <img
+            src="assets/images/location.png"
+            style="height: 200px; width: 200px"
+            alt="location"
+          />
+        </section>
+        <section class="social-links">
+          <h4>Social Links</h4>
+          <p>
+            <span>
+              <img
+                class="instagram-icon"
+                src="/SDG Project/assets/logos/instagram.png"
+                alt=""
+              />
+            </span>
+            <span>
+              <a
+                href="https://www.instagram.com/p/CqvLrVVtMG_/?igshid=NTc4MTIwNjQ2YQ=="
+                >Instagram</a
+              >
+            </span>
+          </p>
+          <p>
+            <span>
+              <img
+                class="linkedin-icon"
+                src="/SDG Project/assets/logos/linkedin.png"
+                alt=""
+              />
+            </span>
+            <span>
+              <a
+                href="https://www.instagram.com/p/CqvLrVVtMG_/?igshid=NTc4MTIwNjQ2YQ=="
+                >LinkedIn</a
+              >
+            </span>
+          </p>
+          <p>
+            <span>
+              <img
+                class="facebook-icon"
+                src="/SDG Project/assets/logos/facebook.png"
+                alt=""
+              />
+            </span>
+            <span>
+              <a
+                href="https://www.instagram.com/p/CqvLrVVtMG_/?igshid=NTc4MTIwNjQ2YQ=="
+                >Facebook</a
+              >
+            </span>
+          </p>
+        </section>
+      </div>
+      <section class="copyright">&copy2023 MJD</section>
+    </footer>
+
+    <script src="js/client_data.js"></script>
+  </body>
+</html>
